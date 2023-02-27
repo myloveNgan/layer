@@ -23,12 +23,7 @@
     line-height: 25px;
     
 }
-.item-last{
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .grid-item div{
     border: 1px solid #000;
     display: flex;
@@ -42,6 +37,8 @@
     justify-content: space-between;
     border-right:1px solid #000 ;
     border-left:1px solid #000 ;
+    height: 40px;
+    align-items: center;
 }
 
 #item-center{
@@ -50,4 +47,10 @@
     height: auto; 
     border:3px solid #0f8fdf;
     padding: 10px 20px;
+}
+#contener input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 1px solid #000;
 }
